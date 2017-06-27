@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Rushabh. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Rushabh_HelloPage::rushabh_customgrid_index" title="HelloPage" module="Rushabh_HelloPage"  sortOrder="20" dependsOnModule="Rushabh_HelloPage" action="hellopage/customgrid/index" resource="Rushabh_HelloPage::rushabh_customgrid_index"/>
+<!--AddMenu-->
+    </menu>
+</config>
